@@ -1,0 +1,54 @@
+/* Definición de las animaciones */
+@keyframes color-change {
+  0% {
+    color: rgb(80, 126, 145);
+  }
+  50% {
+    color: rgb(250, 250, 250);
+  }
+  100% {
+    color: rgb(80, 126, 145);
+  }
+}
+
+@keyframes color-cambio {
+  0% {
+    color: #0B0D14;
+  }
+  50% {
+    color: #303747;
+  }
+  100% {
+    color: #0B0D14;
+  }
+}
+
+/* Aplicación de la fuente Dimitri a h1 */
+h1 {
+  color: #000000;
+  padding: 5px;
+  font-size: 150px;
+  font-family: 'Dimitri Swank', sans-serif;
+  background-color: #F29C46; 
+}
+
+/* Estilos para el cuerpo del documento */
+body {
+  color: rgb(80, 126, 145);
+  background-color: #BB561C;
+}
+
+/* Estilos para la lista desordenada y la animación */
+ul:hover {
+  animation: color-change 3s infinite;
+  padding: 20px;
+  font-size: 18px;
+}
+
+/* Clase personalizada para aplicar la fuente Jaro */
+.jaro-custom {
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
